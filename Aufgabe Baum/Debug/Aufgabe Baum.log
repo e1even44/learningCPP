@@ -1,0 +1,4 @@
+﻿  Aufgabe Baum.cpp
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Baum\Aufgabe Baum.cpp(45,29): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Baum\Aufgabe Baum.cpp(61,29): warning C4018: '<=': signed/unsigned mismatch
+  Aufgabe Baum.vcxproj -> C:\Users\lwnkah7\source\repos\Uebungen\Debug\Aufgabe Baum.exe

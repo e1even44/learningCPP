@@ -1,0 +1,5 @@
+﻿  Rechtwinkliges Dreieck.cpp
+C:\Users\lwnkah7\source\repos\Grundlagen\Rechtwinkliges Dreieck\Rechtwinkliges Dreieck.cpp(40,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\lwnkah7\source\repos\Grundlagen\Rechtwinkliges Dreieck\Rechtwinkliges Dreieck.cpp(43,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\lwnkah7\source\repos\Grundlagen\Rechtwinkliges Dreieck\Rechtwinkliges Dreieck.cpp(46,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Rechtwinkliges Dreieck.vcxproj -> C:\Users\lwnkah7\source\repos\Grundlagen\Debug\Rechtwinkliges Dreieck.exe

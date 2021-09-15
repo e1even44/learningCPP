@@ -1,0 +1,5 @@
+﻿  Aufgabe Kombinierte Pyramide.cpp
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Kombinierte Pyramide\Aufgabe Kombinierte Pyramide.cpp(28,29): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Kombinierte Pyramide\Aufgabe Kombinierte Pyramide.cpp(38,29): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Kombinierte Pyramide\Aufgabe Kombinierte Pyramide.cpp(40,34): warning C4018: '<': signed/unsigned mismatch
+  Aufgabe Kombinierte Pyramide.vcxproj -> C:\Users\lwnkah7\source\repos\Uebungen\Debug\Aufgabe Kombinierte Pyramide.exe

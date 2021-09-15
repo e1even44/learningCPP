@@ -1,0 +1,5 @@
+﻿  Aufgabe Alter.cpp
+C:\Users\lwnkah7\source\repos\Grundlagen\Aufgabe Alter\Aufgabe Alter.cpp(65,17): warning C4305: '=': truncation from 'int' to 'char'
+C:\Users\lwnkah7\source\repos\Grundlagen\Aufgabe Alter\Aufgabe Alter.cpp(65,12): warning C4309: '=': truncation of constant value
+C:\Users\lwnkah7\source\repos\Grundlagen\Aufgabe Alter\Aufgabe Alter.cpp(72,29): warning C4018: '<': signed/unsigned mismatch
+  Aufgabe Alter.vcxproj -> C:\Users\lwnkah7\source\repos\Grundlagen\Debug\Aufgabe Alter.exe

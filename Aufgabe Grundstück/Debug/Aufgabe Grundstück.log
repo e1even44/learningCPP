@@ -1,0 +1,4 @@
+﻿  Aufgabe Grundstück.cpp
+C:\Users\lwnkah7\source\repos\Grundlagen\Aufgabe Grundstück\Aufgabe Grundstück.cpp(21,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\lwnkah7\source\repos\Grundlagen\Aufgabe Grundstück\Aufgabe Grundstück.cpp(24,30): warning C4018: '<': signed/unsigned mismatch
+  Aufgabe Grundstück.vcxproj -> C:\Users\lwnkah7\source\repos\Grundlagen\Debug\Aufgabe Grundstück.exe

@@ -1,0 +1,18 @@
+﻿  Aufgabe Größe und Speicherplatz.cpp
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(24,9): warning C4129: '%': unrecognized character escape sequence
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(25,9): warning C4129: '%': unrecognized character escape sequence
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(26,9): warning C4129: '%': unrecognized character escape sequence
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(27,9): warning C4129: '%': unrecognized character escape sequence
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(32,9): warning C4129: '%': unrecognized character escape sequence
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(33,9): warning C4129: '%': unrecognized character escape sequence
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(33,9): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 2 has type '__int64'
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(33,9): message : consider using '%lli' in the format string
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(33,9): message : consider using '%I64i' in the format string
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(33,9): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 3 has type '__int64'
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(33,9): message : consider using '%lli' in the format string
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(33,9): message : consider using '%I64i' in the format string
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(34,9): warning C4129: '%': unrecognized character escape sequence
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(35,9): warning C4129: '%': unrecognized character escape sequence
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(40,9): warning C4129: '%': unrecognized character escape sequence
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Größe und Speicherplatz\Aufgabe Größe und Speicherplatz.cpp(41,9): warning C4129: '%': unrecognized character escape sequence
+  Aufgabe Größe und Speicherplatz.vcxproj -> C:\Users\lwnkah7\source\repos\Uebungen\Debug\Aufgabe Größe und Speicherplatz.exe

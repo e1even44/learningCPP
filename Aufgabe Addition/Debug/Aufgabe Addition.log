@@ -1,0 +1,11 @@
+﻿  Aufgabe Addition.cpp
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Addition\Aufgabe Addition.cpp(42,15): error C2374: 'temp': redefinition; multiple initialization
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Addition\Aufgabe Addition.cpp(20): message : see declaration of 'temp'
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Addition\Aufgabe Addition.cpp(48,9): warning C4473: 'printf' : not enough arguments passed for format string
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Addition\Aufgabe Addition.cpp(48,9): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Addition\Aufgabe Addition.cpp(48,9): message : the missing variadic argument 1 is required by format string '%u'
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Addition\Aufgabe Addition.cpp(61,15): error C2374: 'temp': redefinition; multiple initialization
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Addition\Aufgabe Addition.cpp(20): message : see declaration of 'temp'
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Addition\Aufgabe Addition.cpp(67,9): warning C4473: 'printf' : not enough arguments passed for format string
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Addition\Aufgabe Addition.cpp(67,9): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Addition\Aufgabe Addition.cpp(67,9): message : the missing variadic argument 1 is required by format string '%u'

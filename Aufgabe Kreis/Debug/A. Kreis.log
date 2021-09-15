@@ -1,0 +1,4 @@
+﻿  A. Kreis.cpp
+C:\Users\lwnkah7\source\repos\Grundlagen\A. Kreis\A. Kreis.cpp(22,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lwnkah7\source\repos\Grundlagen\A. Kreis\A. Kreis.cpp(28,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  A. Kreis.vcxproj -> C:\Users\lwnkah7\source\repos\Grundlagen\Debug\A. Kreis.exe

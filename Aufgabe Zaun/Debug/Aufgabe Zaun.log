@@ -1,0 +1,6 @@
+﻿  Aufgabe Zaun.cpp
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Zaun\Aufgabe Zaun.cpp(47,3): error C2059: syntax error: '}'
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Zaun\Aufgabe Zaun.cpp(32,16): error C2059: syntax error: ';'
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Zaun\Aufgabe Zaun.cpp(35,1): error C2181: illegal else without matching if
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Zaun\Aufgabe Zaun.cpp(53,1): error C2059: syntax error: '}'
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Zaun\Aufgabe Zaun.cpp(53,1): error C2143: syntax error: missing ';' before '}'

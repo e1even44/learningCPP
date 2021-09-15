@@ -1,0 +1,4 @@
+﻿  Aufgabe Umgekehrte Pyramide.cpp
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Umgekehrte Pyramide\Aufgabe Umgekehrte Pyramide.cpp(28,29): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Umgekehrte Pyramide\Aufgabe Umgekehrte Pyramide.cpp(30,32): warning C4018: '<': signed/unsigned mismatch
+  Aufgabe Umgekehrte Pyramide.vcxproj -> C:\Users\lwnkah7\source\repos\Uebungen\Debug\Aufgabe Umgekehrte Pyramide.exe
