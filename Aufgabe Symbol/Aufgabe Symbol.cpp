@@ -62,20 +62,18 @@ int main()
 
 	// Untere Hälfte des Diamanten
 
-	for (unsigned int i = 1; i <= eingabe - i/2; i++)
+	for (unsigned int i = 1; i <= eingabe-1; i++)
 	{
-		for (unsigned int j = i - 1; j < eingabe + i / 2; j++)
-		{
-			printf("#");
-		}
-		for (unsigned int k = 1; k <= i/2; k++)
+		for (unsigned int j = 1; j <= i; j++)
 		{
 			printf(" ");
 		}
+		for (unsigned int k = 1; k <= 2*(eingabe-i)-1; k++)
+		{
+			printf("#");
+		}
 		printf("\n");											// Problem beim Zentrieren der Zeichen noch ungelöst.
 	}
-
-
 
 }
 

@@ -1,3 +1,4 @@
 ﻿  Aufgabe Symbol.cpp
-C:\Users\lwnkah7\source\repos\Uebungen\Aufgabe Symbol\Aufgabe Symbol.cpp(48,29): warning C4018: '<=': signed/unsigned mismatch
-  Aufgabe Symbol.vcxproj -> C:\Users\lwnkah7\source\repos\Uebungen\Debug\Aufgabe Symbol.exe
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Symbol\Aufgabe Symbol.cpp(48,29): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Symbol\Aufgabe Symbol.cpp(65,29): warning C4018: '<=': signed/unsigned mismatch
+  Aufgabe Symbol.vcxproj -> C:\Users\lwnkah7\source\repos\C-Aufgaben\Debug\Aufgabe Symbol.exe

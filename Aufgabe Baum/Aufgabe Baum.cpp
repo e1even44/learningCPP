@@ -39,22 +39,29 @@ int main()
 
 	printf("\n\r");
 
-	int k = 0;
 
-	// Dreieck bzw. Baumkrone
-	for (unsigned int i = 1; i <= gesamthöhe; i++, k = 0)			
+	// //Dreieck bzw. Baumkrone
+
+	unsigned int i;
+
+	for (unsigned int i = 1; i < gesamthöhe*2; i+=2)
 	{
-		for (unsigned int j = 1; j <= gesamthöhe - i; j++)
+		for (unsigned int k = 0; k < gesamthöhe * 2; k++)
 		{
-			printf(" ");
+			if (k< gesamthöhe - (i / 2) || k > gesamthöhe + (i / 2))
+			{
+				printf(" ");
+			}
+
+			else
+			{
+				printf("*");
+			}
+		
 		}
-		while (k != 2*i-1)
-		{
-			printf("*");
-			k++;
-		}
-		printf("\n");
+		printf("\n\r");
 	}
+
 
 	// Baumstamm
 	for (unsigned int a = 1; a <= stammhöhe; a++)
