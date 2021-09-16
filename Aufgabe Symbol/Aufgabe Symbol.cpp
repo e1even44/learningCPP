@@ -25,23 +25,6 @@ int main()
 
 	printf("\n\r");
 
-	//Symbol Versuch 1
-
-	/*for (unsigned int i = 1; i <= eingabe; i++)
-	{
-		for (unsigned int j=1; i < eingabe-1+i; j++)
-		{
-			printf("#");
-		}
-		for (unsigned int k=1; k <= i; k++)
-		{
-			printf("#");
-		}
-		printf("#");
-	}*/
-
-	printf("\n\r");
-
 	int k = 0;
 	// Obere Hälfte des Diamanten (zentriertes Dreieck)
 

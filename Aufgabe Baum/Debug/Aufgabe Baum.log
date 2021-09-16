@@ -1,6 +1,6 @@
 ﻿  Aufgabe Baum.cpp
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Baum\Aufgabe Baum.cpp(60,29): warning C4018: '<': signed/unsigned mismatch
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Baum\Aufgabe Baum.cpp(62,30): warning C4018: '<': signed/unsigned mismatch
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Baum\Aufgabe Baum.cpp(81,29): warning C4018: '<=': signed/unsigned mismatch
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Baum\Aufgabe Baum.cpp(58,15): warning C4101: 'i': unreferenced local variable
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Baum\Aufgabe Baum.cpp(46,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Baum\Aufgabe Baum.cpp(48,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Baum\Aufgabe Baum.cpp(63,29): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Baum\Aufgabe Baum.cpp(44,15): warning C4101: 'i': unreferenced local variable
   Aufgabe Baum.vcxproj -> C:\Users\lwnkah7\source\repos\C-Aufgaben\Debug\Aufgabe Baum.exe

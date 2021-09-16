@@ -25,6 +25,7 @@ int main()
         printf("\n\rDie Größe wurde unter-/überschritten\n\r");
         return -1;
     }
+
     // Werte einlesen (mit Absicherung)
     for (unsigned char i = 0; i < size; i++)
     {

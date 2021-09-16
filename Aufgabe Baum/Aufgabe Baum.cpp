@@ -39,7 +39,6 @@ int main()
 
 	printf("\n\r");
 
-
 	// //Dreieck bzw. Baumkrone
 
 	unsigned int i;
@@ -52,16 +51,13 @@ int main()
 			{
 				printf(" ");
 			}
-
 			else
 			{
 				printf("*");
 			}
-		
 		}
 		printf("\n\r");
 	}
-
 
 	// Baumstamm
 	for (unsigned int a = 1; a <= stammhöhe; a++)
