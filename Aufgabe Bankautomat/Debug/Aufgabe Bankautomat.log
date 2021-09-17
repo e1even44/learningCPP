@@ -1,20 +1,2 @@
 ﻿  Aufgabe Bankautomat.cpp
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(30,33): warning C4474: 'printf' : too many arguments passed for format string
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(30,33): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(32,29): warning C4474: 'printf' : too many arguments passed for format string
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(32,29): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(33,27): warning C4474: 'printf' : too many arguments passed for format string
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(33,27): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(34,27): warning C4474: 'printf' : too many arguments passed for format string
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(34,27): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(35,26): warning C4474: 'printf' : too many arguments passed for format string
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(35,26): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(36,14): warning C4474: 'scanf' : too many arguments passed for format string
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(36,14): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(40,29): warning C4018: '<': signed/unsigned mismatch
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(42,9): warning C4129: 'W': unrecognized character escape sequence
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(42,55): warning C4474: 'printf' : too many arguments passed for format string
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(42,55): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(23,6): warning C4101: 'neuersaldo': unreferenced local variable
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(22,6): warning C4101: 'abhebungsbetrag': unreferenced local variable
   Aufgabe Bankautomat.vcxproj -> C:\Users\lwnkah7\source\repos\C-Aufgaben\Debug\Aufgabe Bankautomat.exe
