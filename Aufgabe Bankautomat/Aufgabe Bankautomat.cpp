@@ -7,7 +7,9 @@
 
 	int einzahlung;
 	int auszahlung;
+
 	int kontostand = 0;
+
 
 int main()
 {
@@ -32,7 +34,9 @@ int main()
 	printf("\n\r\n\rKontonummer: ");
 	scanf("%i", &kontonummer);
 
-	printf("\nEinzahlen: E\n\rAuszahlen: A\n\rZurück: Z\n\r");
+	printf("\n\rEinzahlen: E"
+		"\n\rAuszahlen: A"
+		"\n\rZurück: Z\n\r");
 
 	unsigned char eingabe = 0;
 
@@ -43,20 +47,42 @@ int main()
 	int positiv = kontostand + einzahlung;
 	int negativ = kontostand - auszahlung;
 
+
 	if (eingabe == 'E')
 	{
-		printf("\n\rWie viel Geld möchten Sie einzahlen?: ");
-		scanf("%i", &positiv);
+		printf("\n\rWie viel Geld möchten Sie einzahlen?: ", &einzahlung);
+		scanf("%i", &einzahlung);
 
-		printf("\n\rNeuer Saldo nach EInzahlung: %i", positiv);	
-		
+		printf("\n\rNeuer Saldo nach Einzahlung: %i", (kontostand + einzahlung));
+
 	}
+	//auto int acc_no;
+	//float add_money;
+
+	//printf("Enter account number you want to deposit money:");
+	//scanf("%d", &acc_no);
+	//printf("\nThe current balance for account %d is %f \n",
+	//	acc_no, account[acc_no - 1].available_balance);
+	//printf("\nEnter money you want to deposit :  ");
+	//scanf("%f", &add_money);
+
+	//while (acc_no = account[acc_no - 1].acc_number)
+	//{
+	//	account[acc_no - 1].available_balance =
+	//		account[acc_no - 1].available_balance + add_money;
+	//	printf("\nThe New balance for account %d is %f \n",
+	//		acc_no, account[acc_no - 1].available_balance);
+	//	break;
+	//}acc_no++;
+
+
 	if (eingabe == 'A')
 	{
-		printf("\n\rWie viel Geld möchten Sie abbuchen?: ");
+		printf("\n\rWie viel Geld möchten Sie abbuchen?: ", &auszahlung);
 		scanf("%i", &negativ);
 
-		printf("\n\rNeuer Saldo nach Abbuchung: %i", negativ);
+		printf("\n\rNeuer Saldo nach Abbuchung: %i", &negativ);
+
 	}
 	
 	else if (eingabe == 'Z')
@@ -64,6 +90,8 @@ int main()
 		printf("Zurück zum Hauptmenü...");
 		return-1;
 	}
+
+
 
 
 }
