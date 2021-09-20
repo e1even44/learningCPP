@@ -1,7 +1,7 @@
 ﻿  Aufgabe Bankautomat.cpp
 C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(53,57): warning C4474: 'printf' : too many arguments passed for format string
 C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(53,57): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(62,56): warning C4474: 'printf' : too many arguments passed for format string
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(62,56): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(65,10): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(81,56): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(81,56): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(84,10): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'int *'
   Aufgabe Bankautomat.vcxproj -> C:\Users\lwnkah7\source\repos\C-Aufgaben\Debug\Aufgabe Bankautomat.exe
