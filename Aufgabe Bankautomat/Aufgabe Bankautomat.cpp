@@ -7,9 +7,9 @@
 
 	int einzahlung;
 	int auszahlung;
-
 	int kontostand = 0;
-
+	int kontonummer[10] = { 0,1,2,3,4,5,6,7,8,9 };
+	unsigned char eingabe = 0;
 
 int main()
 {
@@ -21,12 +21,9 @@ int main()
 	//Auszahlen - A
 	//Zurück - Z
 
+	printf("\n\r . . . . . . . . . . . . . . . . . .  Bankkonto . . . . . . . . . . . . . . . . . .  \n\r");
 
-	printf("\n\r . . . . . . . . . . . . . . .  Bankkonto . . . . . . . . . . . . . . .  \n\r");
-
-	int kontonummer[10];
-
-	for (unsigned char i = 0; i <= 9; i++)
+	for (unsigned char i = 0; i <= kontonummer[i]; i++)
 	{
 		printf("Konto[%u]: ", i);
 	}
@@ -34,48 +31,43 @@ int main()
 	printf("\n\r\n\rKontonummer: ");
 	scanf("%i", &kontonummer);
 
+
 	printf("\n\rEinzahlen: E"
 		"\n\rAuszahlen: A"
 		"\n\rZurück: Z\n\r");
-
-	unsigned char eingabe = 0;
 
 	printf("\nEingabe: ");
 	while (getchar() != '\n');
 	scanf("%c", &eingabe);
 
-	int positiv = kontostand + einzahlung;
-	int negativ = kontostand - auszahlung;
+	
+	/*int positiv = kontostand + einzahlung;
+	int negativ = kontostand - auszahlung;*/
 
+	// Switch und While adden, damit die Schleife unendlich  mal wiederholt wird, bis man es abbricht!
 
-	if (eingabe == 'E')
+	switch (eingabe)	// Anfang Switch
 	{
+	case 'E':
 		printf("\n\rWie viel Geld möchten Sie einzahlen?: ", &einzahlung);
 		scanf("%i", &einzahlung);
 
 		printf("\n\rNeuer Saldo nach Einzahlung: %i", (kontostand + einzahlung));
+		break;
 
-	}
- 
-	// Switch und While adden, damit die Schleife unendlich  mal wiederholt wird, bis man es abbricht!
-
-
-	if (eingabe == 'A')
-	{
+	case 'A':
 		printf("\n\rWie viel Geld möchten Sie abbuchen?: ", &auszahlung);
-		scanf("%i", &negativ);
+		scanf("%i", &auszahlung);
 
-		printf("\n\rNeuer Saldo nach Abbuchung: %i", &negativ);
+		printf("\n\rNeuer Saldo nach Abbuchung: %i", (kontostand - auszahlung));
+		break;
 
+	case 'Z':
+		printf("\n\rZurück zum Hauptmenü...");
+		break;
+
+	default: printf("\n\rIhre Eingabe entspricht nicht den oben angegebenen Optionen.");
+		return 0; // Ende Switch
 	}
-	
-	else if (eingabe == 'Z')
-	{
-		printf("Zurück zum Hauptmenü...");
-		return-1;
-	}
-
-
-
 
 }

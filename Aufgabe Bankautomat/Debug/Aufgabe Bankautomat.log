@@ -1,7 +1,9 @@
 ﻿  Aufgabe Bankautomat.cpp
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(53,57): warning C4474: 'printf' : too many arguments passed for format string
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(53,57): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(81,56): warning C4474: 'printf' : too many arguments passed for format string
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(81,56): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(84,10): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'int *'
-  Aufgabe Bankautomat.vcxproj -> C:\Users\lwnkah7\source\repos\C-Aufgaben\Debug\Aufgabe Bankautomat.exe
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(30,6): error C2446: '==': no conversion from 'int' to 'int [10]'
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(30,22): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(30,44): error C2446: '>': no conversion from 'int' to 'int [10]'
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(30,42): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(57,57): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(57,57): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(64,56): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe Bankautomat\Aufgabe Bankautomat.cpp(64,56): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
