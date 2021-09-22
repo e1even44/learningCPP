@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aufgabe SortierungArrays", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BubbleSort Beispiel Int", "BubbleSort Beispiel Int\BubbleSort Beispiel Int.vcxproj", "{2E299D48-5995-4F9B-9C81-95AB8F4C0AB7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aufgabe_FktRechteck", "Aufgabe_FktRechteck\Aufgabe_FktRechteck.vcxproj", "{F4354C89-19DE-47CE-A542-E985E2FFFB49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +273,14 @@ Global
 		{2E299D48-5995-4F9B-9C81-95AB8F4C0AB7}.Release|x64.Build.0 = Release|x64
 		{2E299D48-5995-4F9B-9C81-95AB8F4C0AB7}.Release|x86.ActiveCfg = Release|Win32
 		{2E299D48-5995-4F9B-9C81-95AB8F4C0AB7}.Release|x86.Build.0 = Release|Win32
+		{F4354C89-19DE-47CE-A542-E985E2FFFB49}.Debug|x64.ActiveCfg = Debug|x64
+		{F4354C89-19DE-47CE-A542-E985E2FFFB49}.Debug|x64.Build.0 = Debug|x64
+		{F4354C89-19DE-47CE-A542-E985E2FFFB49}.Debug|x86.ActiveCfg = Debug|Win32
+		{F4354C89-19DE-47CE-A542-E985E2FFFB49}.Debug|x86.Build.0 = Debug|Win32
+		{F4354C89-19DE-47CE-A542-E985E2FFFB49}.Release|x64.ActiveCfg = Release|x64
+		{F4354C89-19DE-47CE-A542-E985E2FFFB49}.Release|x64.Build.0 = Release|x64
+		{F4354C89-19DE-47CE-A542-E985E2FFFB49}.Release|x86.ActiveCfg = Release|Win32
+		{F4354C89-19DE-47CE-A542-E985E2FFFB49}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <string>
 
+
+//-30, -40, 10, 2000, 11, -1000, 20, 50, 80
 int zahl[] = { -30, -40, 10, 2000, 11, -1000, 20, 50, 80 }; // Array mit 8 Zahlen (Zahl[0] bis Zahl[8])
 int h, i, j;
 	

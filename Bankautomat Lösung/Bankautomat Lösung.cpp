@@ -46,6 +46,7 @@ int main()
 			int summe = 0;
 			printf("\n\rWie viel Geld moechten Sie einzahlen?: EUR "); // ... wird gefragt, wie viel Geld man einzahlen möchte.
 			scanf("%i", &summe); // Summe = Geldbetrag, den man ein-/auszahlen möchte
+			while ((getchar()) != '\n');
 
 		/*	konten[kontoIndex] += summe;*/
 			printf("\n\rSie befinden sich auf Konto Nr. %i!\n\r", kontoIndex);
@@ -58,11 +59,12 @@ int main()
 			int summe = 0;
 			printf("\n\rWie viel Geld moechten Sie auszahlen?: EUR "); // ... wird gefragt, wie viel Geld man auszahlen möchte.
 			scanf("%i", &summe); // Summe = Geldbetrag, den man ein-/auszahlen möchte
+			while ((getchar()) != '\n');
 
 		/*	konten[kontoIndex] -= summe;*/
-			printf("\n\rSie befinden sich auf Konto Nr. %i!\n\r", kontoIndex);
+			printf("\n\rSie befinden sich auf Konto Nr. %i!\n\r", kontoIndex); // Erinnert, auf welchem Konto wir uns befinden.
 			printf("Der neue Saldo auf diesem Konto betraegt: EUR %i\n\r", (konten[kontoIndex] -= summe)); // gibt den aktuellen Kontostand nach der Ein-/Auszahlung an
-		
+
 		}
 
 		else if (kommando == 'Z') // Wenn der Befehl 'A' eingegeben wird ...
@@ -77,15 +79,15 @@ int main()
 			continue;
 		}
 
-			printf("\n\n\r\rMoechten Sie weitere Buchungen auf diesem Konto taetigen?");
-			printf("\n\rEinzahlen: E\n\r" 
-				"Auszahlen: A\n\r" 
-				"Zueruck: Z\n\r"); 
-			printf("Warte auf Befehl ... : "); 
-			scanf("%c", &kommando);
-			while ((getchar()) != '\n');
-
-		
+			//// Fragt, ob ein weiterer Vorgang auf aktuellem Konto gewünscht ist.
+			//printf("\n\n\r\rMoechten Sie weitere Buchungen auf diesem Konto taetigen?");
+			//printf("\n\rEinzahlen: E\n\r" 
+			//	"Auszahlen: A\n\r" 
+			//	"Zueruck: Z\n\r"); 
+			//printf("Warte auf Befehl ... : "); 
+			//scanf("%c", &kommando);
+			//while ((getchar()) != '\n');
+			//continue;
 	}
 
 }
