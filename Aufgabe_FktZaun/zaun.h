@@ -1,11 +1,14 @@
 #pragma once
 
+#define LINE_SYMBOL '*'
+
 // Das *.h File enthält
 // => Präprozessoranweisung
 // => Benötigte Standardbibliotheken (Includes)
 // => Prototypen  
 
 // Benötigte Standardbibliotheken
+#include <stdlib.h>
 #include <stdio.h>
 
 

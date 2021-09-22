@@ -17,13 +17,13 @@ void Zeichnen(int zahl1, int zahl2)
 		{
 			if (y == 0 || y == (zahl1 - 1))
 			{
-				printf("*");
+				printf("%c", LINE_SYMBOL);
 			}
 			else
 			{
 				if (x == 0 || x == (zahl2 - 1))
 				{
-					printf("*");
+					printf("% c", LINE_SYMBOL);
 				}
 				else
 				{

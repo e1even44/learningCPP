@@ -3,7 +3,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+
 #include "zaun.h"
+#include "read.h"
 
 int laenge;
 int breite;
@@ -16,26 +18,22 @@ int main()
 
 	printf(". . . . Zaun . . . . \n\r\n\r");
 
-	// Grundstück zeichnen mit Funktion
-	printf("Länge des Zaunes: ");
-	scanf("%i", &laenge);
-	printf("Breite des Zaunes: ");
-	scanf("%i", &breite);
+	// Länge und Breite angeben
+	laenge = read_unit("Länge: ");
+	breite = read_int("Breite: ");
 
+	// Grundstück zeichnen
 	printf("\n\r\n\r");
 	Zeichnen(laenge, breite);
 
-	// Umfang berechnen mit Funktion
+	// Umfang berechnen
 	printf("\n\r\n\r");
 	int umf = Umfang(laenge, breite);
 	printf("Umfang: %i", umf);
 
-	// Flächeninhalt berechnen mit Funktion
+	// Flächeninhalt berechnen
 	int inh = FInhalt(laenge, breite);
 	printf("\n\rFlächeninhalt: %i", inh);
 	printf("\n\r");
 
 }
-
-
-
