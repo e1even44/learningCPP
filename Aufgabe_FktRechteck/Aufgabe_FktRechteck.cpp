@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-int Zeichnen(int zahl1, int zahl2); // Prototyp: Grundstück zeichnen
+void Zeichnen(int zahl1, int zahl2); // Prototyp: Grundstück zeichnen
 int Umfang(int zahl1, int zahl2); // Prototyp: Umfang berechnen 
 int FInhalt(int zahl1, int zahl2); // Prototyp: Flächeninhalt berechnen
 float Diagonale(int zahl1, int zahl2); // Prototyp: Diagonale berechnen
@@ -27,7 +27,7 @@ int main()
 	scanf("%i", &breite);
 
 	printf("\n\r\n\r");
-	int grundstueck = Zeichnen(laenge, breite);
+	Zeichnen(laenge, breite);
 
 	// Umfang berechnen mit Funktion
 	printf("\n\r\n\r");
@@ -49,7 +49,7 @@ int main()
 
 
 // Funktion: Grundstück zeichnen
-int Zeichnen(int zahl1, int zahl2)
+void Zeichnen(int zahl1, int zahl2)
 {
 	for (unsigned int i = 0; i < zahl1; i++)    
 	{
@@ -59,7 +59,6 @@ int Zeichnen(int zahl1, int zahl2)
 		}
 		printf("\n");
 	}
-	return(zahl1, zahl2);
 }
 
 // Funktion: Umfang des Rechtecks

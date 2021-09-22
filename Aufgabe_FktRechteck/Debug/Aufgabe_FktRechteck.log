@@ -1,5 +1,5 @@
 ﻿  Aufgabe_FktRechteck.cpp
 C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe_FktRechteck\Aufgabe_FktRechteck.cpp(54,29): warning C4018: '<': signed/unsigned mismatch
 C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe_FktRechteck\Aufgabe_FktRechteck.cpp(56,30): warning C4018: '<': signed/unsigned mismatch
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe_FktRechteck\Aufgabe_FktRechteck.cpp(81,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe_FktRechteck\Aufgabe_FktRechteck.cpp(79,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
   Aufgabe_FktRechteck.vcxproj -> C:\Users\lwnkah7\source\repos\C-Aufgaben\Debug\Aufgabe_FktRechteck.exe
