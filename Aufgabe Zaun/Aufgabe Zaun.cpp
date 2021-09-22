@@ -26,13 +26,12 @@ int main()
 		for (unsigned char x = 0; x < width; x++)
 		{
 			
-			if (y == 0 || y == (height - 1)
+			if (y == 0 || y == (height - 1))
 			{
 				printf("#");
 			}
 			
 			else
-			
 			{
 				if (x == 0 || x == (width - 1))
 				{
@@ -49,5 +48,11 @@ int main()
 	
 	}
 
+
+
+
+
 }
+
+
 

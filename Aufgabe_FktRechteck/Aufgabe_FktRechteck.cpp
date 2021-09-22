@@ -51,9 +51,9 @@ int main()
 // Funktion: Grundstück zeichnen
 void Zeichnen(int zahl1, int zahl2)
 {
-	for (unsigned int i = 0; i < zahl1; i++)    
+	for (unsigned int i = 0; i < zahl1; i++) // Länge bzw. oben nach unten   
 	{
-		for (unsigned int j = 0; j < zahl2; j++) 
+		for (unsigned int j = 0; j < zahl2; j++) // Breite bzw. links nach rechts
 		{
 			printf("#");
 		}
