@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Aufgabe_Überprüfung_RW__VR.cpp" />
+    <ClCompile Include="reverse.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="reverse.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

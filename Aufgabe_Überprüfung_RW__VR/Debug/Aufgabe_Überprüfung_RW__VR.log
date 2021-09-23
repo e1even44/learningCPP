@@ -1,4 +1,5 @@
 ﻿  Aufgabe_Überprüfung_RW__VR.cpp
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe_Überprüfung_RW__VR\Aufgabe_Überprüfung_RW__VR.cpp(14,53): warning C4474: 'printf' : too many arguments passed for format string
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe_Überprüfung_RW__VR\Aufgabe_Überprüfung_RW__VR.cpp(14,53): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-  Aufgabe_Überprüfung_RW__VR.vcxproj -> C:\Users\lwnkah7\source\repos\C-Aufgaben\Debug\Aufgabe_Überprüfung_RW__VR.exe
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe_Überprüfung_RW__VR\Aufgabe_Überprüfung_RW__VR.cpp(31,37): error C2440: 'initializing': cannot convert from 'void' to 'unsigned int'
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe_Überprüfung_RW__VR\Aufgabe_Überprüfung_RW__VR.cpp(31,22): message : Expressions of type void cannot be converted to other types
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe_Überprüfung_RW__VR\Aufgabe_Überprüfung_RW__VR.cpp(32,21): error C2446: '==': no conversion from 'unsigned int' to 'char [20]'
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe_Überprüfung_RW__VR\Aufgabe_Überprüfung_RW__VR.cpp(32,17): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast

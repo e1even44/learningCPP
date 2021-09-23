@@ -9,7 +9,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aufgabe Alter", "Aufgabe Al
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Geburtstagsrechner", "Aufgabe Geburtstagsrechner\Geburtstagsrechner.vcxproj", "{E7CDCBD5-8F29-4A15-A3A1-6885846B3B14}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aufgabe Grundstück", "Aufgabe Grundstück\Aufgabe Grundstück.vcxproj", "{638484DB-8B79-42F5-A218-0B75452334DB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Grundstück_Zeichnen", "Aufgabe Grundstück\Aufgabe Grundstück.vcxproj", "{638484DB-8B79-42F5-A218-0B75452334DB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A. Kreis", "Aufgabe Kreis\A. Kreis.vcxproj", "{04873BBF-AE50-4018-A979-00BBC0CF1EEC}"
 EndProject
@@ -52,8 +52,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aufgabe Arrays ausgeben und einlesen2", "Aufgabe Arrays ausgeben und einlesen2\Aufgabe Arrays ausgeben und einlesen2.vcxproj", "{67AA0D28-6D07-4593-B361-F5FB6AE9CB6D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aufgabe SortierungArrays", "Aufgabe SortierungArrays\Aufgabe SortierungArrays.vcxproj", "{39DF0CE6-ABAF-4C77-ADF0-A030BE697CA9}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BubbleSort Beispiel Int", "BubbleSort Beispiel Int\BubbleSort Beispiel Int.vcxproj", "{2E299D48-5995-4F9B-9C81-95AB8F4C0AB7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aufgabe_FktRechteck", "Aufgabe_FktRechteck\Aufgabe_FktRechteck.vcxproj", "{F4354C89-19DE-47CE-A542-E985E2FFFB49}"
 EndProject
@@ -275,14 +273,6 @@ Global
 		{39DF0CE6-ABAF-4C77-ADF0-A030BE697CA9}.Release|x64.Build.0 = Release|x64
 		{39DF0CE6-ABAF-4C77-ADF0-A030BE697CA9}.Release|x86.ActiveCfg = Release|Win32
 		{39DF0CE6-ABAF-4C77-ADF0-A030BE697CA9}.Release|x86.Build.0 = Release|Win32
-		{2E299D48-5995-4F9B-9C81-95AB8F4C0AB7}.Debug|x64.ActiveCfg = Debug|x64
-		{2E299D48-5995-4F9B-9C81-95AB8F4C0AB7}.Debug|x64.Build.0 = Debug|x64
-		{2E299D48-5995-4F9B-9C81-95AB8F4C0AB7}.Debug|x86.ActiveCfg = Debug|Win32
-		{2E299D48-5995-4F9B-9C81-95AB8F4C0AB7}.Debug|x86.Build.0 = Debug|Win32
-		{2E299D48-5995-4F9B-9C81-95AB8F4C0AB7}.Release|x64.ActiveCfg = Release|x64
-		{2E299D48-5995-4F9B-9C81-95AB8F4C0AB7}.Release|x64.Build.0 = Release|x64
-		{2E299D48-5995-4F9B-9C81-95AB8F4C0AB7}.Release|x86.ActiveCfg = Release|Win32
-		{2E299D48-5995-4F9B-9C81-95AB8F4C0AB7}.Release|x86.Build.0 = Release|Win32
 		{F4354C89-19DE-47CE-A542-E985E2FFFB49}.Debug|x64.ActiveCfg = Debug|x64
 		{F4354C89-19DE-47CE-A542-E985E2FFFB49}.Debug|x64.Build.0 = Debug|x64
 		{F4354C89-19DE-47CE-A542-E985E2FFFB49}.Debug|x86.ActiveCfg = Debug|Win32

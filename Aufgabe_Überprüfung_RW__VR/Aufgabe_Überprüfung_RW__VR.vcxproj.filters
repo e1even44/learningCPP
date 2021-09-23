@@ -18,5 +18,13 @@
     <ClCompile Include="Aufgabe_Überprüfung_RW__VR.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="reverse.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="reverse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

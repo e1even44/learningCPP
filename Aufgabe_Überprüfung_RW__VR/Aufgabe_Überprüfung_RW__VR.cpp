@@ -2,31 +2,41 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
-char wort[1];
+#include "reverse.h"
+#include "reverse.h"
+#include <string>
+
 
 int main()
 {
-	// Aktivieren von Umlauten
-	system("chcp 1252");
-	printf("\n\r");
+    char word[20];
+    int temp = 0;
+    int len = 0;
+    int i = 0, j = 0;
+  
 
-	printf("Bitte geben Sie ein Wort ein: ", wort[0]);
-	scanf("%c", &wort[0]);
+    printf(". . . . forwards / backwards . . . .\n\r");
 
-	for (char j = (int i - 1); j >= 0; j--)
-	{
-		// Wird ein Leerzeichen erfasst abbrechen
-		if (wort[j] == ' ')
-		{
-			break;
-		}
-		printf("%c", data[j]);
-	}
+    printf("\n\rPlease enter one word: ");
+    scanf("%s", word);
 
-	printf("\n\r");
+  
+    printf("\n\rWord Reversed: %s\n", word);
+    printf("\n\r");
 
 
+    // Vergleich, ob das Wort vorwärts und rückwärts gleich ist.
+   unsigned int back = Reverse(word);
+    if (word == back)
+    {
+        printf("Wort ist Palindrom!");
+    }
+    else
+    {
+        printf("Wort ist kein Palindrom!");
+    }
 
 }
 
