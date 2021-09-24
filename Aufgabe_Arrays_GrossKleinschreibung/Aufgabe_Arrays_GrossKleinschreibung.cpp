@@ -8,23 +8,23 @@
 
 int main()
 {
-    system("chcp 1252");                                       // Aktivieren von Umlauten
-    printf("\n\r");
+    system("chcp 1252\n\r");                                    // Aktivieren von Umlauten
 
-    char word[100];
+    char word[120];
 
     printf(". . . . GROSS / kleinschreibung . . . .\n\r");      // ‹berschrift
 
-    printf("\n\rBitte ein Wort eingeben: ");                    // Worteingabe
-    scanf("%s", word);
-    while (getchar() != '\n');
+    printf("\n\rBitte ein Wort/einen Satz eingeben: ");         // Worteingabe
+    fgets(word, 120, stdin);                                    // scanf durch fgets ausgetauscht, damit nicht nur ein Wort, sondern 
+                                                                // ein kompetter Satz eingegeben und ausgelesen wird. (stdin => Standardeingabe)
+
+
 
     printf("\n\reingabe: %s", word); 
     Kleinbuchstabe(word);                                    // Darstellung eines Wortes in Kleinbuchstaben mithilfe einer Funktion
-    printf("\n\rkleingeschrieben: %s", word);
+    printf("kleingeschrieben: %s", word);
     Grossbuchstabe(word);                                    // Darstellung eines Wortes in Groﬂbuchstaben mithilfe einer Funktion
-    printf("\n\rgrossgeschrieben: %s", word);               
-
+    printf("grossgeschrieben: %s\n\r", word);     
 }
 
 /*

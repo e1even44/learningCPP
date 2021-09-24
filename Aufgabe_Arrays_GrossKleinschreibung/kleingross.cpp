@@ -1,6 +1,5 @@
 #include "kleingross.h"
 
-
 // Funktion für die Darstellung des Wortes in Kleinbuchstaben
 char* Kleinbuchstabe(char* string)
 {
