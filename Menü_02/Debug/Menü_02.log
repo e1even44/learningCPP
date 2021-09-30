@@ -1,0 +1,4 @@
+﻿  Menü_02.cpp
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Menü_02\Menü_02.cpp(88,11): warning C4101: 'temp': unreferenced local variable
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Menü_02\Menü_02.cpp(110,11): warning C4101: 'operation': unreferenced local variable
+  Menü_02.vcxproj -> C:\Users\lwnkah7\source\repos\C-Aufgaben\Debug\Menü_02.exe

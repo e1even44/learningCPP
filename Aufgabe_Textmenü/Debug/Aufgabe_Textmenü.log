@@ -1,0 +1,4 @@
+﻿  Aufgabe_Textmenü.cpp
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe_Textmenü\Aufgabe_Textmenü.cpp(16,11): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int *'
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Aufgabe_Textmenü\Aufgabe_Textmenü.cpp(18,11): warning C4101: 'filePointer': unreferenced local variable
+  Aufgabe_Textmenü.vcxproj -> C:\Users\lwnkah7\source\repos\C-Aufgaben\Debug\Aufgabe_Textmenü.exe
