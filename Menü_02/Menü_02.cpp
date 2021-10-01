@@ -2,11 +2,12 @@
 
 #include <stdio.h>
 #include <string>
+#include "menu02.h"
 
 void writeLine(unsigned char length);
-void writeText(unsigned char write);
-void readText(unsigned char read);
-void appendText(unsigned char append);
+int writeText(unsigned char write);
+int readText(unsigned char read);
+int appendText(unsigned char append);
 
 char filename[20];
 
@@ -18,47 +19,55 @@ int main()
 
     // Dateiname einlesen
     printf("Dateiname: ");
-    if (scanf("%s", filename) != 1)
+
+    if (scanf("%19s", filename) != 1)
     {
         printf("Fehler bei der Eingabe!");
         return -1;
     }
 
     // Menü in Dauerschleife
-
     char operation[3] = "q";
-
     do
     {
-        system("cls"); // Console leeren
+        system("cls");
 
         printf("Menü:\n\r");
         writeLine(30);
-        printf(" -> 1.) Schreiben\n\r"
+        printf("-> 1.) Schreiben\n\r"
             "-> 2.) Lesen\n\r"
-            "-> 3.) Anhängen\n\r"
-            " -> 4.) Beenden\n\r");
+            "-> 3.) Anhängen\n\r");
         writeLine(30);
+       
         printf("Eingabe: ");
+        scanf("%1s", operation);
+
         if (scanf("%1s", operation) != 1)
+            system("cls");
         {
             printf("Fehler bei der Eingabe!\n\r");
-            return-1;
+            return -1;
         }
 
-        switch (operation[0])
+        int eingabe;
+
+        switch (filename[20])
         {
         case '1':
-            writeText(operation[1]);
+            writeText(filename[20]);
+            printf("Texteingabe: ");
+            scanf("%s", eingabe);
             break;
 
         case '2':
-            readText(operation[2]);
+            readText(filename[20]);
             break;
 
         case '3':
-            appendText(operation[3]);
+            appendText(filename[20]);
             break;
+            printf("Texteimgabe: ");
+            scanf("%s", eingabe);
 
         case '4':
             printf("Terminating\n\r");
@@ -68,97 +77,86 @@ int main()
             printf("Operation not permitted\n\r");
             break;
         }
-       
-    } while (operation[0] != 'q');
+    } while (operation[0] != '$');
 }
 
- void writeLine(unsigned char length) // Zeichnen von Zeichen über und unter dem Menü
- {
+// Zeichnen von Zeichen über und unter dem Menü
+void writeLine(unsigned char length)
+{
     for (unsigned char i = 0; i < length; i++)
     {
-        printf("=");
+        printf("*");
     }
     printf("\n\r");
- }
-
- void writeText(unsigned char write) // Schreiben eines Textes
- {
-     FILE* filePointer;
-     char operation;
-     char temp;
-
-     filePointer = fopen(filename, "w"); // Öffnet das Dokument, damit anschlißend darauf geschrieben werden kann.
-     
-     if (filePointer == NULL) 
-     {
-         printf("Datei konnte nicht geöffnet werden!\n\r"); // Fehlermeldung bei falscher Eingabe
-     }
-
-     do
-     {
-         operation = getchar();
-         fputc(operation, filePointer);
-     } while (operation != '$');
-
-     fclose(filePointer);
- }
+}
 
 
- void readText(unsigned char read) // Lesen eines Textes
- {
-     FILE* filePointer;
-     char operation;
-     char temp;
+// Schreiben eines Textes
+int writeText(unsigned char write)
+{
+    FILE* filePointer;
 
-     filePointer = fopen(filename, "r"); // Öffnet das Dokument, damit anschließend darauf geschrieben werden kann.
-
-     if (filePointer == NULL)
-     {
-         printf("Datei konnte nicht geöffnet werden!\n\r"); // Fehlermeldung bei falscher Eingabe   
-     }
-
-     while ((temp = fgetc(filePointer)) != EOF)
-     {
-         putchar(temp);
-     }
-
-     fclose(filePointer);
- }
+    filePointer = fopen(filename, "w");
 
 
- void appendText(unsigned char append) // Erweitern eines Textes.
- {
-     FILE* filePointer;
-     char operation;
-     char temp;
+    if (filePointer == NULL)
+    {
+        printf("Datei konnte nicht geöffnet werden!\n\r");
+        return-1;
+    }
 
-     filePointer = fopen(filename, "r");
+    char letter = 0;
+    do
+    {
+        letter = getchar();
+        fputc(letter, filePointer);
 
-     if (filePointer == NULL)
-     {
-         printf("Datei konnte nicht geöffnet werden!\n\r");
-        
-     }
+    } while (letter != '$');
 
-     while ((temp = fgetc(filePointer)) != EOF)
-     {
-         putchar(temp);
-     }
+    fclose(filePointer);
+}
 
-     filePointer = fopen(filename, "w");
 
-     if (filePointer == NULL)
-     {
-         printf("Datei konnte nicht geöffnet werden!\n\r");
-     }
-     do
-     {
-         operation = getchar();
-         fputc(operation, filePointer);
+// Lesen eines Textes
+int readText(unsigned char read)
+{
+    FILE* filePointer;
+    char temp;
 
-     } while (operation != '$');
+    filePointer = fopen(filename, "r"); // Öffnet das Dokument, damit anschließend darauf geschrieben werden kann.
 
-     fclose(filePointer);
+    if (filePointer == NULL)
+    {
+        printf("Datei konnte nicht geöffnet werden!\n\r"); // Fehlermeldung bei falscher Eingabe   
+        return -1;
+    }
 
- }
-//void quit
+    while ((temp = fgetc(filePointer)) != EOF)
+    {
+        putchar(temp);
+    }
+    fclose(filePointer);
+}
+
+
+// Erweitern eines Textes
+int appendText(unsigned char append)
+{
+    FILE* filePointer;
+    char temp;
+
+    filePointer = fopen(filename, "a"); // Öffnet das Dokument, damit anschließend darauf geschrieben werden kann.
+
+    if (filePointer == NULL)
+    {
+        printf("Datei konnte nicht geöffnet werden!\n\r"); // Fehlermeldung bei falscher Eingabe   
+        return -1;
+    
+    }
+
+    while ((temp = fgetc(filePointer)) != EOF)
+    {
+        putchar(temp);
+    }
+    fclose(filePointer);
+}

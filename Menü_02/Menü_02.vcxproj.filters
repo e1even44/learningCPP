@@ -18,5 +18,13 @@
     <ClCompile Include="Menü_02.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="menu02.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="menu02.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

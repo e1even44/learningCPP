@@ -1,4 +1,7 @@
 ﻿  Menü_02.cpp
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Menü_02\Menü_02.cpp(88,11): warning C4101: 'temp': unreferenced local variable
-C:\Users\lwnkah7\source\repos\C-Aufgaben\Menü_02\Menü_02.cpp(110,11): warning C4101: 'operation': unreferenced local variable
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Menü_02\Menü_02.cpp(59,19): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Menü_02\Menü_02.cpp(70,19): warning C4477: 'scanf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Menü_02\Menü_02.cpp(117): warning C4715: 'writeText': not all control paths return a value
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Menü_02\Menü_02.cpp(139): warning C4715: 'readText': not all control paths return a value
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Menü_02\Menü_02.cpp(162): warning C4715: 'appendText': not all control paths return a value
   Menü_02.vcxproj -> C:\Users\lwnkah7\source\repos\C-Aufgaben\Debug\Menü_02.exe
