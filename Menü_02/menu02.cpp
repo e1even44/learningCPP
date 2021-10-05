@@ -8,6 +8,11 @@ Linie über und unter dem Menü zeichnen
 Die Datei öffnen, um reinschreiben zu können
 Die Datei öfnnen, um darin lesen zu können
 Die Datei öffnen, um den Text ergänzen zu können
+
+Erweiterungen:
+Eine bestimmte Zeile auswählen,
+diese bearbeiten
+oder löschen.
 */
 
 extern char filename[];
@@ -161,36 +166,51 @@ void appendText(char operation['3'])
 }
 
 
-/* 
- Bestimmte Zeilen bearbeiten oder löschen 
- */
-
-
 // Funktion für das Ändern und Löschen bestimmter Zeilen
 void set(char line)
 {
-    FILE* filePointer;
-    filePointer = fopen(filename, "a");
-
     char letter = 0;
     int number = 1;
-    int eingabe = 0;
 
-    letter = getchar();
+    // Code, das in Dauerschleife die Zeilennummer zählt.
 
-    while (true)
+    do
     {
-        if (letter == '\n')
-        {
-            printf("Bearbeiten oder Löschen . . . ");
+        number++;
+    } while (letter=='\n');
+    
 
-            if (scanf("%s", eingabe) == 'B' || scanf("%s", eingabe) == 'b')
-            {
+    // Fenster fragt ab, in welcher Zeile eine Verändeurung ausgeführt werden sollte.
+    int zeile;
+    printf("In welcher Zeile möchten Sie Änderungen vornehmen?"
+        "\n\rEingabe: ");
+    scanf("%i", &zeile);
+    
+    // Fenster fragt ab, was getan werden soll. (Bearbeiten/Löschen)
+    char optim = 0;
+    int operation;
+    printf("Was möchten Sie tun? (Bearbeiten/Löschen)"
+        "\n\rEingabe");
 
-            }
-        
-        }
-
+    if (optim == 'B')
+    {
+        writeText;
     }
 
+    if (optim == 'L')
+    {
+        //Zeile entfernen
+    }
+    
+    else
+    {
+        printf("Fehler: Ihre Eingabe entspricht nicht den Optionen.");
+    }
 }
+
+
+/*
+*
+while, dass \n zählt, um stand der aktuellen zeile zu kennen.
+*
+*/

@@ -1,2 +1,4 @@
-﻿  Menü_02.cpp
+﻿  menu02.cpp
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Menü_02\menu02.cpp(196,9): warning C4551: function call missing argument list
+C:\Users\lwnkah7\source\repos\C-Aufgaben\Menü_02\menu02.cpp(190,9): warning C4101: 'operation': unreferenced local variable
   Menü_02.vcxproj -> C:\Users\lwnkah7\source\repos\C-Aufgaben\Debug\Menü_02.exe

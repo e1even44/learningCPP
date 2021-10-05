@@ -24,16 +24,16 @@ int main()
 
     // Menü in Dauerschleife
    char operation[3] = "$";
-    do
-    {
-        system("chcp 1252\n\r");
-
-        printf("\n\rMenue:\n\r");
-        writeLine(30);
-        printf("-> 1.) Schreiben\n\r"
-            "-> 2.) Lesen\n\r"
-            "-> 3.) Anhaengen\n\r"
-        "-> 4.) Beenden\n\r");
+   do
+   {
+       printf("\n\rMenue:\n\r");
+       writeLine(30);
+       printf("-> 1.) Schreiben\n\r"
+           "-> 2.) Lesen\n\r"
+           "-> 3.) Anhaengen\n\r"
+           "-> 4.) Beenden\n\r"
+       "    -> B.) Zeile bearbeten\n\r"
+       "    -> L.) Zeile loeschen\n\r");
         writeLine(30);
        
         printf("Eingabe: ");
@@ -68,21 +68,19 @@ int main()
             return 0;
             break;
 
+   /*     case 'B':
+            set(filename);
+            break;
+
+        case 'L':
+            set(filename);
+            break;*/
+
         default:
             printf("Operation not permitted\n\r");
             break;
         }
 
     } while (operation[0] != 'q');
-
-
-  
-
-
-
- 
-
-
-
 
 }
